@@ -1,0 +1,20 @@
+/*[[[[[[[[[[[[[ COLOURS ]]]]]]]]]]]]]*/
+/* Layout Colors */
+$primary: #294e85;
+$accent: #d7a31a;
+$black: #000000;
+$dark: #402e32;
+$dMid: #005249;
+$lMid: #b4cfff;
+$lite: #f1f1e6;
+$white: #ffffff;
+
+/* Denotive Colors */
+$error: orangered;
+$success: #2cc194;
+$disabled: #005249; /* Disabled colour differs between dark and light */
+
+/* Interactive Colors */
+$btnl: #0030aa;
+$btn: #002299;
+$btnd: #002080;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+      <a class="header__logobox" href="#">
+        <img src="assets/images/icons/logo.svg" alt="Company Logo">
+      </a>
+
+      <button class="header__hamburger" onclick="toggleMenu()">
+        <div class="ham-slice" id="ham-slice"></div>
+      </button>
+
+      <nav class="header__menu" id="main-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <div class="tile">
+    <h1>Website Boilerplate</h1>
+    <p>Uses Webpack and PostCSS.</p>
+    <button class="btn">Learn More...</button>
+    <button class="btn btn--accent">Learn More...</button>
+  </div>
+
+  <div class="content" style="min-height: 80vh">
+
+  </div>
+
+  <footer class="footer">
+    <p>Copyright &copy; 2021 Stabilimentum.io. All right reserved.</p>
+  </footer>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
