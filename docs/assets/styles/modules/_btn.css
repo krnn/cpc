@@ -1,0 +1,12 @@
+.btn {
+  cursor: pointer;
+  background-color: $btn;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  color: white;
+
+  &--accent {
+    background-color: $accent;
+  }
+}

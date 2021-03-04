@@ -1,0 +1,70 @@
+.services {
+  min-height: 110vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__panel {
+    vertical-align: middle;
+    margin: 4rem auto;
+
+    @mixin medium {
+      display: inline-block;
+      width: 48%;
+      margin: 8rem auto 0 auto;
+    }
+
+    &-text {
+      padding: 2rem;
+
+      h2 {
+        font-size: 3rem;
+        span {
+          font-weight: normal;
+        }
+      }
+    }
+
+    &-list {
+      text-align: right;
+
+      h1 {
+        margin-right: 2rem;
+        font-weight: normal;
+      }
+    }
+
+    &-image {
+      text-align: center;
+
+      &__shadow {
+        position: relative;
+        display: inline-block;
+        background-color: $primary;
+        margin: 0 4rem 4rem 0;
+          width: 300px;
+          height: 240px;
+
+        @mixin medium {
+          width: 404px;
+          height: 320px;
+        }
+      }
+
+      &__box {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        border: 6px solid $accent;
+        width: 300px;
+        height: 240px;
+
+        @mixin medium {
+        width: 404px;
+        height: 318px;
+        }
+
+      }
+    }
+  }
+}
