@@ -7,6 +7,10 @@
 @import "base/_layout";
 
 @import "modules/_header";
+@import "modules/_hero";
+@import "modules/_services";
+@import "modules/_about";
+@import "modules/_infra";
 @import "modules/_tile";
 @import "modules/_btn";
 @import "modules/_footer";

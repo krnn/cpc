@@ -4,9 +4,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: $dark;
-  background-color: $primary;
 }
 
 *, *::before, *::after {
@@ -16,4 +15,8 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+p {
+  line-height: 1.8;
 }

@@ -1,0 +1,70 @@
+.infra {
+  text-align: center;
+  padding: 100px 0;
+
+  .h-panel {
+    @mixin medium {
+      vertical-align: top;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 20px;
+      margin-right: 80px;
+      text-align: left;
+      max-width: 30%
+    }
+
+    h1{
+      font-weight: normal;
+      font-size: 6rem;
+      margin-bottom: 0px
+    }
+  }
+
+  &__shadow {
+    height: 360px;
+    width: 300px;
+    margin: 2rem 4rem 2rem 0;
+    background-color: $blue;
+    display: inline-block;
+    vertical-align: top;
+
+    @mixin medium {
+      width: 600px;
+    }
+  }
+
+  &__table {
+    height: 360px;
+    width: 300px;
+    margin: 2rem 0 0 2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    @mixin medium {
+      width: 600px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 300px;
+      @mixin medium {
+        width: 600px;
+      }
+
+      tr {
+        background-color: #eeeeee;
+        height: 40px;
+        td{
+          border: 1px solid #aaa;
+        }
+      }
+      thead {
+
+        th {
+          background-color: $primary;
+          color: white;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}
