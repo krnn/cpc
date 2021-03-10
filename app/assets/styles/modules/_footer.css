@@ -1,5 +1,5 @@
 .footer {
-  background-color: $primary;
+  background-color: $black;
   color: $white;
   padding: .5rem;
   text-align: center;
@@ -42,14 +42,14 @@
   }
 
   input, textarea, button {
-    padding: 10px 5px;
+    padding: 10px;
     outline: none;
     border-radius: 4px;
     border: none;
     width: 320px;
     display: block;
     margin: 20px 10px;
-    box-shadow: -10px -10px 0 $blue;
+    box-shadow: -6px -6px 0 $primary;
 
     @mixin small {
       margin: 20px 40px;
@@ -58,7 +58,13 @@
 
   button {
     background-color: $accent;
-    color: $primary;
+    color: $black;
     font-weight: bold;
+
+    &:hover {
+      background-color: $blue;
+      cursor: pointer;
+      
+    }
   }
 }

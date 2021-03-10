@@ -5,11 +5,19 @@
   max-height: 120vw;
   position: relative;
 
+  @mixin small {
+    max-height: 80vw;
+  }
+
+  @mixin medium {
+    max-height: 60vw;
+  }
+
   &__heading {
     position: absolute;
     color: white;
     max-width: 80vw;
-    top: 20%;
+    top: 10rem;
     left: 10%;
 
     @mixin small {
@@ -18,6 +26,7 @@
 
     @mixin medium {
       max-width: 40%;
+      top: 12rem;
       /* top: 30%; */
     }
 
@@ -27,12 +36,17 @@
       font-weight: normal;
       text-shadow: -3px -3px 0 $blue;
 
+
       @mixin medium {
         font-size: 4rem;
       }
 
       @mixin large {
         font-size: 5.5rem;
+      }
+
+      @mixin xlarge {
+        font-size: 6.5rem;
       }
     }
     h2 {
@@ -47,12 +61,20 @@
       @mixin large {
         font-size: 6rem;
       }
+
+      @mixin xlarge {
+        font-size: 8.5rem;
+      }
     }
 
     h1{
       font-weight: normal;
       font-size: 2.5rem;
+      @mixin xlarge {
+        font-size: 5rem;
+      }
     }
+
   }
 }
 

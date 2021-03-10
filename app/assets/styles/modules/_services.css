@@ -37,33 +37,20 @@
     &-image {
       text-align: center;
 
-      &__shadow {
+      &__box {
         position: relative;
         display: inline-block;
-        background-color: $primary;
+        background-color: white;
+        border: 6px solid $accent;
         margin: 0 4rem 4rem 0;
-          width: 300px;
-          height: 240px;
+        width: 300px;
+        height: 240px;
+        box-shadow: -2rem -2rem 0 $primary;
 
         @mixin medium {
           width: 404px;
           height: 320px;
         }
-      }
-
-      &__box {
-        position: absolute;
-        top: 2rem;
-        left: 2rem;
-        border: 6px solid $accent;
-        width: 300px;
-        height: 240px;
-
-        @mixin medium {
-        width: 404px;
-        height: 318px;
-        }
-
       }
     }
   }
