@@ -617,12 +617,13 @@ p {
       margin: 0;
       font-size: 3.5rem;
       font-weight: normal;
-      text-shadow: -3px -3px 0 #0098dd;
+      text-shadow: -1px -1px 0 #00000050, -1px -1px 0 #0098dd;
     }
 
 @media (min-width: 800px) {
 
 .hero__heading h3 {
+        text-shadow: -3px -3px 0 #00000050, -3px -3px 0 #0098dd;
         font-size: 4rem
     }
   }
@@ -644,13 +645,14 @@ p {
 .hero__heading h2 {
       margin: 0;
       font-size: 4rem;
-      text-shadow: -6px -6px 0 #0098dd;
+      text-shadow:  -3px -3px 0 #00000050, -3px -3px 0 #0098dd;
     }
 
 @media (min-width: 800px) {
 
 .hero__heading h2 {
-        font-size: 5rem
+        font-size: 5rem;
+        text-shadow:  -6px -6px 0 #00000050, -6px -6px 0 #0098dd
     }
   }
 
@@ -671,7 +673,15 @@ p {
 .hero__heading h1{
       font-weight: normal;
       font-size: 2.5rem;
+      display: none;
     }
+
+@media (min-width: 800px) {
+
+.hero__heading h1{
+        display: block
+    }
+  }
 
 @media (min-width: 1700px) {
 
@@ -758,6 +768,7 @@ p {
         position: relative;
         display: inline-block;
         background-color: white;
+        background-size: contain;
         border: 6px solid #ffed00;
         margin: 0 4rem 4rem 0;
         width: 300px;

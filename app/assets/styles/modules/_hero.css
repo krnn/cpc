@@ -34,10 +34,11 @@
       margin: 0;
       font-size: 3.5rem;
       font-weight: normal;
-      text-shadow: -3px -3px 0 $blue;
+      text-shadow: -1px -1px 0 #00000050, -1px -1px 0 $blue;
 
 
       @mixin medium {
+        text-shadow: -3px -3px 0 #00000050, -3px -3px 0 $blue;
         font-size: 4rem;
       }
 
@@ -52,10 +53,11 @@
     h2 {
       margin: 0;
       font-size: 4rem;
-      text-shadow: -6px -6px 0 $blue;
+      text-shadow:  -3px -3px 0 #00000050, -3px -3px 0 $blue;
 
       @mixin medium {
         font-size: 5rem;
+        text-shadow:  -6px -6px 0 #00000050, -6px -6px 0 $blue;
       }
 
       @mixin large {
@@ -70,6 +72,10 @@
     h1{
       font-weight: normal;
       font-size: 2.5rem;
+      display: none;
+      @mixin medium {
+        display: block;
+      }
       @mixin xlarge {
         font-size: 5rem;
       }

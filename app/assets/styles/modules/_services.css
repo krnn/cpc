@@ -46,6 +46,7 @@
         position: relative;
         display: inline-block;
         background-color: white;
+        background-size: contain;
         border: 6px solid $accent;
         margin: 0 4rem 4rem 0;
         width: 300px;
