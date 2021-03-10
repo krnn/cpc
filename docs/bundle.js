@@ -1,0 +1,1 @@
+(()=>{"use strict";window.toggleMenu=()=>{document.getElementById("main-menu").classList.toggle("header__menu--visible"),document.getElementById("ham-slice").classList.toggle("ham-slice--x")}})();

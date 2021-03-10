@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5048"
+   version="1.1"
+   viewBox="0 0 105.83333 79.375002"
+   height="300"
+   width="400"
+   sodipodi:docname="head-shape-l.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     id="namedview6235"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:zoom="1.1441127"
+     inkscape:cx="211.56105"
+     inkscape:cy="145.18265"
+     inkscape:window-x="1920"
+     inkscape:window-y="312"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5048"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true" />
+  <defs
+     id="defs5042">
+    <linearGradient
+       xlink:href="#linearGradient4781"
+       id="linearGradient4783"
+       x1="76.73909"
+       y1="30.055178"
+       x2="159.18198"
+       y2="47.085358"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-54.581281,215.00335)" />
+    <linearGradient
+       id="linearGradient4781">
+      <stop
+         style="stop-color:#ab0080;stop-opacity:1;"
+         offset="0"
+         id="stop4777" />
+      <stop
+         style="stop-color:#79008d;stop-opacity:1"
+         offset="1"
+         id="stop4779" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#5d0893;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 0,62.041568 17.333431,79.374999 105.83333,44.154558 V 0 H 0 Z"
+     id="path1007"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 146.40234 79.224609 A 25.784171 12.236556 0 0 0 120.61719 91.460938 L 120.61719 108.58594 A 25.784171 12.236556 0 0 0 146.40234 120.82227 A 25.784171 12.236556 0 0 0 172.18555 108.58594 L 172.18555 91.460938 A 25.784171 12.236556 0 0 0 146.40234 79.224609 z "
+     transform="scale(0.26458333)"
+     id="path1044" />
+  <path
+     id="ellipse1046"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+     sodipodi:type="arc"
+     sodipodi:cx="38.735435"
+     sodipodi:cy="24.198944"
+     sodipodi:rx="6.822062"
+     sodipodi:ry="3.2375886"
+     sodipodi:start="0"
+     sodipodi:end="3.1415927"
+     sodipodi:open="true"
+     d="M 45.557498,24.198944 A 6.822062,3.2375886 0 0 1 42.146466,27.002778 6.822062,3.2375886 0 0 1 35.324404,27.002778 6.822062,3.2375886 0 0 1 31.913373,24.198944" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 38.735619,17.786511 A 6.8220618,3.2375887 0 0 0 31.913298,21.02404 V 22.61154 A 6.8220618,3.2375887 0 0 0 38.735619,25.849068 6.8220618,3.2375887 0 0 0 45.557426,22.61154 V 21.02404 A 6.8220618,3.2375887 0 0 0 38.735619,17.786511 Z"
+     id="path1054"
+     inkscape:connector-curvature="0" />
+  <ellipse
+     ry="3.2375886"
+     rx="6.822062"
+     cy="21.023941"
+     cx="38.735435"
+     id="ellipse1056"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>

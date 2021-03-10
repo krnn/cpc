@@ -1,0 +1,23 @@
+/*[[[[[[[[[[[[[ COLOURS ]]]]]]]]]]]]]*/
+/* Layout Colors */
+$primary: #e5007d;
+$accent: #ffed00;
+$purple: #120078;
+$blue: #0098dd;
+$red: #fd3a69;
+$black: #1c1c1c;
+$dark: #402e32;
+$dMid: #005249;
+$lMid: #b4cfff;
+$lite: #f1f1e6;
+$white: #ffffff;
+
+/* Denotive Colors */
+$error: orangered;
+$success: #2cc194;
+$disabled: #005249; /* Disabled colour differs between dark and light */
+
+/* Interactive Colors */
+$btnl: #0030aa;
+$btn: #002299;
+$btnd: #002080;

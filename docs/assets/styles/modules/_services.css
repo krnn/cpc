@@ -4,11 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @mixin medium {
-    min-height: auto;
-    padding-bottom: 4rem;
-  }
-
   &__panel {
     vertical-align: middle;
     margin: 4rem auto;
