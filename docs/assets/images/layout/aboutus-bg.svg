@@ -5,11 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="300"
-   height="150"
-   version="1.1"
+   id="svg17"
    viewBox="0 0 79.4 39.7"
-   id="svg17">
+   version="1.1"
+   height="150"
+   width="300">
   <metadata
      id="metadata21">
     <rdf:RDF>
@@ -27,39 +27,39 @@
     <clipPath
        id="a">
       <rect
-         x="55.1"
-         y="176"
-         width="104"
-         height="51.8"
+         id="rect2"
          style="fill:#ab0080;opacity:.999"
-         id="rect2" />
+         height="51.8"
+         width="104"
+         y="176"
+         x="55.1" />
     </clipPath>
   </defs>
   <rect
-     x="0"
-     id="rect7"
-     style="opacity:0.99900004;fill:#1c1c1c;fill-opacity:1"
-     height="39.700001"
+     y="0"
      width="79.400002"
-     y="0" />
+     height="39.700001"
+     style="opacity:0.99900004;fill:#ffbfcf;fill-opacity:1"
+     id="rect7"
+     x="0" />
   <g
-     id="g13"
-     style="stroke:#53c7ff"
+     transform="matrix(0.764,0,0,0.764,-42.152403,-134.464)"
      clip-path="url(#a)"
-     transform="matrix(0.764,0,0,0.764,-42.152403,-134.464)">
+     style="stroke:#53c7ff"
+     id="g13">
     <circle
-       id="circle9"
-       style="opacity:0.99900004;fill:none;stroke:#0098dd;stroke-width:4.76000023;stroke-linejoin:round;stroke-opacity:1"
-       r="18.299999"
+       cx="151"
        cy="185"
-       cx="151" />
+       r="18.299999"
+       style="opacity:0.99900004;fill:none;stroke:#06bcc1;stroke-width:4.76000023;stroke-linejoin:round;stroke-opacity:1"
+       id="circle9" />
     <rect
-       id="rect11"
-       style="opacity:0.99900004;fill:none;stroke:#0098dd;stroke-width:4.76000023;stroke-linejoin:round;stroke-opacity:1"
-       height="32"
-       width="31.9"
-       y="172.01004"
+       transform="rotate(16.3)"
        x="97.43325"
-       transform="rotate(16.3)" />
+       y="172.01004"
+       width="31.9"
+       height="32"
+       style="opacity:0.99900004;fill:none;stroke:#06bcc1;stroke-width:4.76000023;stroke-linejoin:round;stroke-opacity:1"
+       id="rect11" />
   </g>
 </svg>
