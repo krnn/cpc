@@ -16,14 +16,13 @@
     @mixin medium {
       display: inline-block;
       width: 48%;
-      margin: 8rem auto 0 auto;
     }
 
     &-text {
       padding: 2rem;
 
       h2 {
-        font-size: 3rem;
+        font-size: 4.8rem;
         span {
           font-weight: normal;
         }
@@ -39,25 +38,89 @@
       }
     }
 
-    &-image {
+    &-heading {
       text-align: center;
-
-      &__box {
-        position: relative;
-        display: inline-block;
-        background-color: white;
-        background-size: contain;
-        border: 6px solid $accent;
-        margin: 0 4rem 4rem 0;
-        width: 300px;
-        height: 240px;
-        box-shadow: -2rem -2rem 0 $primary;
-
-        @mixin medium {
-          width: 404px;
-          height: 320px;
-        }
+      h1 {
+        font-size: 6rem;
+        font-weight: normal;
+        color: $purple;
       }
     }
+  }
+
+  &__products {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    &__tile {
+      box-shadow: 0 4px 10px #00000040;
+      border-radius: 4px;
+      padding: 2rem;
+      background-color: white;
+      width: 80%;
+      margin-bottom: 20px;
+
+      @mixin medium {
+        width: 40%;
+      }
+
+      @mixin large {
+        width: 30%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      h1 {
+        margin: 0;
+        margin-top: 20px;
+        color: $purple;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+.big-tile {
+  margin: 3rem 0;
+  background-color: $blue;
+
+  img {
+    margin: 1rem;
+    width: 95%;
+    vertical-align: middle;
+
+    @mixin medium {
+      width: 45%;
+      padding: 2rem;
+    }
+  }
+  
+  &__text {
+    color: $purple;
+    width: 95%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    
+    @mixin medium {
+      width: 50%;
+      text-align: right;
+    }
+  }
+
+
+}
+
+#anim-boxes {
+  width: 98%;
+  display: none;
+    
+  @mixin medium {
+    display: block;
   }
 }

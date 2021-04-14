@@ -1,6 +1,6 @@
 .footer {
-  background-color: $black;
-  color: $white;
+  background-color: $blue;
+  color: $purple;
   padding: .5rem;
   text-align: center;
 
@@ -50,7 +50,7 @@
     width: 320px;
     display: block;
     margin: 20px 10px;
-    box-shadow: -6px -6px 0 $primary;
+    box-shadow: -6px -6px 0 $purple;
 
     @mixin small {
       margin: 20px 40px;

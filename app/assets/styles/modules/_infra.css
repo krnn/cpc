@@ -51,17 +51,17 @@
       }
 
       tr {
-        background-color: #eeeeee;
+        background-color: #fafafa;
         height: 40px;
         td{
-          border: 1px solid #aaa;
+          border: 1px solid $purple;
         }
       }
       thead {
 
         th {
-          background-color: $primary;
-          color: white;
+          background-color: $purple;
+          color: $white;
           padding: 5px 10px;
         }
       }

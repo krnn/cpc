@@ -59,7 +59,7 @@
     @mixin medium {
       height: 4rem;
       right: 2rem;
-      max-width: 52rem;
+      max-width: 54rem;
     }
 
     @mixin large {

@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,700' rel='stylesheet' type='text/css'>
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  
+  <title>Custom Printing Co.</title>
 </head>
 <body>
   <header class="header">
@@ -27,17 +29,12 @@
   </header>
 
   <section class="hero">
-    <picture>
-      <source media="(min-width:800px)" srcset="./assets/images/layout/head-shape-l.svg">
-      <img src="./assets/images/layout/head-shape.svg" alt="header background" id="hero-bg">
-    </picture>
-
+    <img src="./assets/images/colorful-boxes.svg" alt="">
     <div class="hero__heading">
       <h3>Have a vision?</h3>
       <h2>We can give it a shape</h2>
       <h1>Printing, packaging and branding under one roof.</h1>
     </div>
-    <img src="./assets/images/layout/head-boxes-anim.svg" alt="header boxes" id="hero-boxes">
   </section>
 
   <section id="services" class="services"
@@ -58,17 +55,66 @@
       </div>
 
       <div class="services__panel services__panel-list">
-        <h1>Mono Cartons</h1>
+        <img src="./assets/images/layout/head-boxes-anim.svg" alt="boxes" id="anim-boxes">
+        <!-- <h1>Mono Cartons</h1>
         <h1>Master Cartons</h1>
         <h1>Labels</h1>
         <h1>Stickers</h1>
         <h1>Handbags</h1>
-        <h1>POSM</h1>
+        <h1>POSM</h1> -->
+      </div>
+    </div>
+    <div class="big-tile">
+      <div class="wrapper">
+        <img src="./assets/images/mono-boxes.jpg" alt="Mono Cartons">
+        <div class="big-tile__text">
+          <h1>Mono Cartons</h1>
+          <p>
+            Mono cartons are used for compact packaging of medicines,
+            cosmetics, food, and other non-food products. They can be cut and folded into unique structures
+            and printed with graphics that engage consumers like nothing else on the store shelf.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="services__products">
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/master.jpg" alt="Master Carton">
+          <h1>Master Carton</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/apparel.jpg" alt="Apparel Box">
+          <h1>Apparel Box</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/food.jpg" alt="Food Grade Box">
+          <h1>Food Grade Box</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/tissue.jpg" alt="Tissue Paper Box">
+          <h1>Tissue Paper Box</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/label.jpg" alt="Labels">
+          <h1>Labels</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/sticker.jpg" alt="Stickers">
+          <h1>Stickers</h1>
+        </div>
+
       </div>
 
-      <div class="services__panel services__panel-image">
-        <div class="services__panel-image__box" style="background-image: url('./assets/images/boxes.jpeg');">
-        </div>
+      <div class="services__panel services__panel-heading">
+        <h1>Commercial Printing</h1>
       </div>
 
       <div class="services__panel services__panel-text">
@@ -87,6 +133,42 @@
           garment manufacturing, food and beverage, and many more.
         </p>
       </div>
+
+
+    <div class="wrapper">
+      <div class="services__products">
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/brochure.jpg" alt="Brochures and Catalogs">
+          <h1>Brochures</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/poster.jpg" alt="Posters">
+          <h1>Posters</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/foam.jpg" alt="Foam Board">
+          <h1>Foam Banners</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/bag.jpg" alt="Paper Shopping Bags">
+          <h1>Shopping Bags</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/wobbler.jpg" alt="Wobblers">
+          <h1>Wobblers</h1>
+        </div>
+        
+        <div class="services__products__tile">
+          <img src="./assets/images/shelf.jpg" alt="Shelf Strips">
+          <h1>Shelf Strips</h1>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -95,17 +177,17 @@
       <h1>About us</h1>
 
       <div class="about__bullet">
-        <div class="about__bullet__icon"></div>
+        <div class="about__bullet__icon"><i class="fas fa-shipping-fast"></i></div>
         <h4>Rapid Turnaround Times</h4>
       </div>
 
       <div class="about__bullet">
-        <div class="about__bullet__icon"></div>
+        <div class="about__bullet__icon"><i class="fas fa-leaf"></i></div>
         <h4>Eco-friendly Facilities</h4>
       </div>
 
       <div class="about__bullet">
-        <div class="about__bullet__icon"></div>
+        <div class="about__bullet__icon"><i class="far fa-check-circle"></i></div>
         <h4>High Quality Products</h4>
       </div>
 

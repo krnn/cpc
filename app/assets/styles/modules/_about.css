@@ -2,7 +2,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: $purple;
   padding: 30px;
   text-align: center;
 
@@ -27,11 +27,17 @@
     display: inline-block;
 
     &__icon {
-      background-color: $accent;
+      background-color: $purple;
+      color: white;
       height: 60px;
       width: 60px;
       border-radius: 50%;
       margin: auto;
+      padding: 14px;
+
+      i {
+        font-size: 32px;
+      }
     }
   }
 
