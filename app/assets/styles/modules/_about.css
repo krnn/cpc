@@ -1,54 +1,60 @@
 .about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: $purple;
-  padding: 30px;
+  background-size: inherit;
   text-align: center;
+  color: $purple;
 
   @mixin medium {
-    padding: 60px;
+    padding: 8rem 1rem ;
     /* height: 80vh; */
+  }
+
+  &__text {
+    background-color: $white;
+    vertical-align: top;
+    box-shadow: 0 4px 5px #00000040;
+
+    @mixin medium {
+      width: 54rem;
+      padding: 4rem;
+      max-width: 80%;
+    }
   }
 
   h1 {
     text-align: center;
     font-weight: normal;
+    margin-top: 2rem;
 
     @mixin medium {
       font-size: 6rem;
     }
   }
 
-  &__bullet {
-    margin: 1rem;
-    width: 150px;
-    text-align: center;
-    display: inline-block;
-
-    &__icon {
-      background-color: $purple;
-      color: white;
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      margin: auto;
-      padding: 14px;
-
-      i {
-        font-size: 32px;
-      }
-    }
-  }
-
   p {
     margin: 2rem auto;
     text-align: justify;
-
-    @mixin medium {
-      width: 60rem;
-      max-width: 80%;
-    }
   }
 
+}
+
+
+.bullet {
+
+  h2 {
+    margin: 1rem;
+    font-size: 3rem;
+  }
+  p {
+    margin-top: 0;
+    font-size: 2rem;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $purple;
+  }
 }

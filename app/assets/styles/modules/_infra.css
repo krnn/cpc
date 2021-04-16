@@ -20,9 +20,11 @@
         font-size: 6rem;
       }
     }
-
-    p {
+    .about__text {
       display: inline-block;
+    }
+    
+    p {
       vertical-align: middle;
       
       @mixin small {
@@ -32,14 +34,23 @@
   }
 
   &__box {
-    width: 60rem;
-    margin: auto;
+    width: 100rem;
+    height: 40rem;
+    font-size: 0;
+    background-color: #000fff;
+    margin: 5rem auto 0 auto;
+    white-space: normal;
+
     &__tab{
       overflow: hidden;
       background-color: $purple;
+      display: inline-block;
+      height: 40rem;
+      vertical-align: top;
 
       .tab-btn {
         background: none;
+        width: 20rem;
         border: none;
         padding: 10px 15px;
         color: $white;
@@ -47,6 +58,10 @@
         cursor: pointer;
         outline: none;
         transition: 0.3s;
+
+        @mixin medium {
+          display: block;
+        }
 
         &.active {
           background-color: $blue;
@@ -58,9 +73,8 @@
     &__tabcontent {
       position: relative;
       overflow: hidden;
-      margin: auto;
-      width: 60rem;
-      height: 50rem;
+      width: 80rem;
+      height: 40rem;
       display: none;
 
       .slide-btn {
@@ -79,30 +93,43 @@
           background-color: #00000020;
         }
       }
-
-      .left {
-        left: 0;
-      }
       
-      .right {
-        right: 0;
+      .machines {
+        background-color: $blue;
+        display: inline-block;
+        width: 20rem;
+        height: 40rem;
+        vertical-align: top;
+      }
+
+      input[type="radio"] {
+        position: absolute;
+        visibility: hidden;
+      }
+
+      .machine-tag {
+        margin: .5rem;
+        display: block;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: $purple;
+        padding: 1rem;
+        border-bottom: 1px solid $purple;
+        &:hover {
+          text-shadow: 0 0px 4px $primary;
+        }
       }
 
       .reel {
-        width: 121rem;
+        display: inline-block;
         background-color: $blue;
         color: $purple;
         transition: 0.3s;
 
-        p {
-          margin: .5rem;
-          font-size: 1.8rem;
+        .frame {
+          width: 60rem;
         }
 
-        .frame {
-          display: inline-block;
-          width: 600px;
-        }
       }
     }
 
@@ -110,4 +137,62 @@
       display: block;
     }
   }
+}
+
+.contentholder {
+  display: inline-block;
+}
+
+
+
+#pr1:checked~.reel {
+  margin-top: 0;
+}
+#pr2:checked~.reel {
+  margin-top: -50rem;
+}
+
+
+
+#fo1:checked~.reel {
+  margin-top: 0;
+}
+#fo2:checked~.reel {
+  margin-top: -45rem;
+}
+
+
+
+#cu1:checked~.reel {
+  margin-top: 0;
+}
+#cu2:checked~.reel {
+  margin-top: -40rem;
+}
+#cu3:checked~.reel {
+  margin-top: -80rem;
+}
+#cu4:checked~.reel {
+  margin-top: -120rem;
+}
+
+
+
+#qu1:checked~.reel {
+  margin-top: 0;
+}
+#qu2:checked~.reel {
+  margin-top: -40rem;
+}
+#qu3:checked~.reel {
+  margin-top: -80rem;
+}
+
+
+
+#ot1:checked~.reel {
+  margin-top: 0;
+}
+#ot2:checked~.reel {
+  margin-top: -40rem;
 }

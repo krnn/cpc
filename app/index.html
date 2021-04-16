@@ -172,25 +172,40 @@
     </div>
   </section>
 
-  <section id="about" class="about" style="background-image: url('./assets/images/layout/aboutus-bg.svg')">
-    <div class="wrapper">
+  <section id="about" class="about" style="background-image: url(./assets/images/layout/boxpattern.svg);">
+    
+    <div class="about__text" >
+
+      <div class="bullet">
+        <i class="far fa-eye"></i><br>
+        <h2>Quality Control</h2>
+        <p>
+          At CPC the printing process is inspected at every
+          stage to ensure the quality of output.
+        </p>
+      </div>
+
+      <div class="bullet">
+        <i class="fas fa-shipping-fast"></i><br>
+        <h2>Logistics Department</h2>
+        <p>
+          We ensure the timely delivery of finished goods.
+        </p>
+      </div>
+
+      <div class="bullet">
+        <i class="fas fa-headset"></i><br>
+        <h2>After-sales Service</h2>
+        <p>
+          It is the valuable feedback from our clients that
+          has helped us grow and improve over the years.
+        </p>
+      </div>
+      
+    </div>
+    
+    <div class="about__text" >
       <h1>About us</h1>
-
-      <div class="about__bullet">
-        <div class="about__bullet__icon"><i class="fas fa-shipping-fast"></i></div>
-        <h4>Rapid Turnaround Times</h4>
-      </div>
-
-      <div class="about__bullet">
-        <div class="about__bullet__icon"><i class="fas fa-leaf"></i></div>
-        <h4>Eco-friendly Facilities</h4>
-      </div>
-
-      <div class="about__bullet">
-        <div class="about__bullet__icon"><i class="far fa-check-circle"></i></div>
-        <h4>High Quality Products</h4>
-      </div>
-
       <p>
         Custom Printing Co is one of the premier offset printers in Bangalore,
         specializing in high quality sheet fed offset printing and packaging.
@@ -200,8 +215,8 @@
         unique products and doing what others can’t. We take pride in our high-quality work,
         fast turnaround times and great customer service. We strive to stay at the cutting edge of our industry.
       </p>
-
     </div>
+
   </section>
 
   <section id="infra" class="infra wrapper">
@@ -220,135 +235,132 @@
         <button onclick="openTab(event, 'printing')" class="tab-btn active">Printing</button>
         <button onclick="openTab(event, 'folding')" class="tab-btn">Folding</button>
         <button onclick="openTab(event, 'cutting')" class="tab-btn">Cutting</button>
-        <button onclick="openTab(event, 'quality')" class="tab-btn">Quality Control</button>
+        <button onclick="openTab(event, 'quality')" class="tab-btn">Quality</button>
         <button onclick="openTab(event, 'other')" class="tab-btn">Other</button>
       </div>
 
-      <div id="printing" class="infra__box__tabcontent">
+      <div class="contentholder">
 
-        <button onclick="slide('reel1', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
-        <button onclick="slide('reel1', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
-
-        <div class="reel" id="reel1">
-          <div class="frame">
-            <p>Heidelberg SM 74 (6 Colours)</p>
-            <img src="./assets/images/machine.jpg" alt="">
+        <div id="printing" class="infra__box__tabcontent">
+        
+          <input type="radio" name="pr" id="pr1" checked>
+          <input type="radio" name="pr" id="pr2">
+        
+          <div class="machines">
+            <label class="machine-tag" for="pr1">Heidelberg SM 74<br>(6 Colours)</label>
+            <label class="machine-tag" for="pr2">Ryobi 684 <br>(4 Colours)</label>
           </div>
-          <div class="frame">
-            <p>Ryobi 684 (4 Colours)</p>
-            <img src="./assets/images/machine2.jpg" alt="">
-          </div>
-        </div>
-      </div>
 
-      <div id="folding" class="infra__box__tabcontent">
-
-        <button onclick="slide('reel2', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
-        <button onclick="slide('reel2', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
-
-        <div class="reel" id="reel2">
-          <div class="frame">
-            <p>Shoei Folding Machine</p>
-            <img src="./assets/images/machine3.jpg" alt="">
-          </div>
-          <div class="frame">
-            <p>Bagempam Folder</p>
-            <img src="./assets/images/machine2.jpg" alt="">
+          <div class="reel" id="reel1">
+            <div class="frame">
+              <img src="./assets/images/machine.jpg" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/machine2.jpg" alt="">
+            </div>
           </div>
         </div>
-      </div>
-
-      <div id="cutting" class="infra__box__tabcontent">
-
-        <button onclick="slide('reel3', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
-        <button onclick="slide('reel3', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
-
-        <div class="reel" id="reel3">
-
-          <div class="frame">
-            <p>Suguna Autofeeding Die Cutter</p>
-            <img src="./assets/images/machine.jpg" alt="Suguna Autofeeding Die Cutter">
+        
+        <div id="folding" class="infra__box__tabcontent">
+        
+          <input type="radio" name="fo" id="fo1" checked>
+          <input type="radio" name="fo" id="fo2">
+        
+          <div class="machines">
+            <label class="machine-tag" for="fo1">Shoei Folding Machine</label>
+            <label class="machine-tag" for="fo2">Bagempam Folder</label>
+            
           </div>
-          
-          <div class="frame">
-            <p>Robo Cut 45</p>
-            <img src="./assets/images/machine2.jpg" alt="Robo Cut 45">
-          </div>
-          
-          <div class="frame">
-            <p>Itohtec 40</p>
-            <img src="./assets/images/machine2.jpg" alt="Itohtec 40">
-          </div>
-          
-          <div class="frame">
-            <p>Printograph Manual Die Cut</p>
-            <img src="./assets/images/machine2.jpg" alt="Printograph Manual Die Cut">
+
+          <div class="reel" id="reel1">
+            <div class="frame">
+              <img src="./assets/images/machine3.jpg" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/2.png" alt="">
+            </div>
           </div>
         </div>
-      </div>
-
-      <div id="quality" class="infra__box__tabcontent">
-
-        <button onclick="slide('reel4', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
-        <button onclick="slide('reel4', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
-
-        <div class="reel" id="reel4">
-          <div class="frame">
-            <p>Heidelberg SM 74</p>
-            <img src="./assets/images/machine.jpg" alt="">
+        
+        <div id="cutting" class="infra__box__tabcontent">
+        
+          <input type="radio" name="cu" id="cu1" checked>
+          <input type="radio" name="cu" id="cu2">
+          <input type="radio" name="cu" id="cu3">
+          <input type="radio" name="cu" id="cu4">
+        
+          <div class="machines">
+            <label class="machine-tag" for="cu1">Suguna Autofeeding Die Cutter</label>
+            <label class="machine-tag" for="cu2">Robo Cut 45"</label>
+            <label class="machine-tag" for="cu3">Itohtec 40"</label>
+            <label class="machine-tag" for="cu4">Printograph Manual Die Cut</label>
           </div>
-          <div class="frame">
-            <p>Ryobi 684</p>
-            <img src="./assets/images/machine2.jpg" alt="">
-          </div>
-        </div>
-      </div>
 
-      <div id="other" class="infra__box__tabcontent">
-
-        <button onclick="slide('reel5', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
-        <button onclick="slide('reel5', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
-
-        <div class="reel" id="reel5">
-          <div class="frame">
-            <p>Heidelberg SM 74</p>
-            <img src="./assets/images/machine.jpg" alt="">
-          </div>
-          <div class="frame">
-            <p>Ryobi 684</p>
-            <img src="./assets/images/machine2.jpg" alt="">
+          <div class="reel" id="reel1">
+            <div class="frame">
+              <img src="./assets/images/1.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/2.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/3.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/4.png" alt="">
+            </div>
           </div>
         </div>
+        
+        <div id="quality" class="infra__box__tabcontent">
+        
+          <input type="radio" name="qu" id="qu1" checked>
+          <input type="radio" name="qu" id="qu2">
+          <input type="radio" name="qu" id="qu3">
+        
+          <div class="machines">
+            <label class="machine-tag" for="qu1">D50 Light</label>
+            <label class="machine-tag" for="qu2">Spectrophotometer</label>
+            <label class="machine-tag" for="qu3">Inspection Booth</label>
+          </div>
+
+          <div class="reel" id="reel1">
+            <div class="frame">
+              <img src="./assets/images/1.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/2.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/3.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div id="other" class="infra__box__tabcontent">
+        
+          <input type="radio" name="ot" id="ot1" checked>
+          <input type="radio" name="ot" id="ot2">
+        
+          <div class="machines">
+            <label class="machine-tag" for="ot1">Hytek Lamination Machine</label>
+            <label class="machine-tag" for="ot2">Saddle Stitching Machine</label>
+          </div>
+
+          <div class="reel" id="reel1">
+            <div class="frame">
+              <img src="./assets/images/1.png" alt="">
+            </div>
+            <div class="frame">
+              <img src="./assets/images/2.png" alt="">
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <!-- <div class="infra__shadow">
-      <div class="infra__table">
-        <table>
-          <thead>
-            <th>Printing</th>
-          </thead>
-          <tr><td>Heidelberg SM 74 (6 colours)</td></tr>
-          <tr><td>Ryobi 684 (4 colours)</td></tr>
-          <thead>
-            <th>Folding</th>
-          </thead>
-          <tr><td>Shoei Folding Machine</td></tr>
-          <tr><td>Bagempam Folder</td></tr>
-          <thead>
-            <th>Cutting</th>
-          </thead>
-          <tr><td>Suguna Autofeeding Die Cutter</td></tr>
-          <tr><td>Robo Cut 45"</td></tr>
-          <tr><td>Itohtec 40"</td></tr>
-          <tr><td>Printograph Manual Die Cut</td></tr>
-          <thead>
-            <th>Other</th>
-          </thead>
-          <tr><td>Hytek Lamination Machine</td></tr>
-          <tr><td>Saddle Stitching Machine</td></tr>
-        </table>
-      </div> -->
+    
     </div>
   </section>
 
