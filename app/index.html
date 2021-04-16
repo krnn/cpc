@@ -204,7 +204,7 @@
     </div>
   </section>
 
-  <section id="infra" class="infra">
+  <section id="infra" class="infra wrapper">
     <div class="h-panel">
       <h1>Infrastructure</h1>
 
@@ -215,7 +215,114 @@
       </p>
     </div>
 
-    <div class="infra__shadow">
+    <div class="infra__box">
+      <div class="infra__box__tab">
+        <button onclick="openTab(event, 'printing')" class="tab-btn active">Printing</button>
+        <button onclick="openTab(event, 'folding')" class="tab-btn">Folding</button>
+        <button onclick="openTab(event, 'cutting')" class="tab-btn">Cutting</button>
+        <button onclick="openTab(event, 'quality')" class="tab-btn">Quality Control</button>
+        <button onclick="openTab(event, 'other')" class="tab-btn">Other</button>
+      </div>
+
+      <div id="printing" class="infra__box__tabcontent">
+
+        <button onclick="slide('reel1', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="slide('reel1', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="reel" id="reel1">
+          <div class="frame">
+            <p>Heidelberg SM 74 (6 Colours)</p>
+            <img src="./assets/images/machine.jpg" alt="">
+          </div>
+          <div class="frame">
+            <p>Ryobi 684 (4 Colours)</p>
+            <img src="./assets/images/machine2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="folding" class="infra__box__tabcontent">
+
+        <button onclick="slide('reel2', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="slide('reel2', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="reel" id="reel2">
+          <div class="frame">
+            <p>Shoei Folding Machine</p>
+            <img src="./assets/images/machine3.jpg" alt="">
+          </div>
+          <div class="frame">
+            <p>Bagempam Folder</p>
+            <img src="./assets/images/machine2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="cutting" class="infra__box__tabcontent">
+
+        <button onclick="slide('reel3', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="slide('reel3', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="reel" id="reel3">
+
+          <div class="frame">
+            <p>Suguna Autofeeding Die Cutter</p>
+            <img src="./assets/images/machine.jpg" alt="Suguna Autofeeding Die Cutter">
+          </div>
+          
+          <div class="frame">
+            <p>Robo Cut 45</p>
+            <img src="./assets/images/machine2.jpg" alt="Robo Cut 45">
+          </div>
+          
+          <div class="frame">
+            <p>Itohtec 40</p>
+            <img src="./assets/images/machine2.jpg" alt="Itohtec 40">
+          </div>
+          
+          <div class="frame">
+            <p>Printograph Manual Die Cut</p>
+            <img src="./assets/images/machine2.jpg" alt="Printograph Manual Die Cut">
+          </div>
+        </div>
+      </div>
+
+      <div id="quality" class="infra__box__tabcontent">
+
+        <button onclick="slide('reel4', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="slide('reel4', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="reel" id="reel4">
+          <div class="frame">
+            <p>Heidelberg SM 74</p>
+            <img src="./assets/images/machine.jpg" alt="">
+          </div>
+          <div class="frame">
+            <p>Ryobi 684</p>
+            <img src="./assets/images/machine2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="other" class="infra__box__tabcontent">
+
+        <button onclick="slide('reel5', 'l')" class="slide-btn left"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="slide('reel5', 'r')" class="slide-btn right"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="reel" id="reel5">
+          <div class="frame">
+            <p>Heidelberg SM 74</p>
+            <img src="./assets/images/machine.jpg" alt="">
+          </div>
+          <div class="frame">
+            <p>Ryobi 684</p>
+            <img src="./assets/images/machine2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="infra__shadow">
       <div class="infra__table">
         <table>
           <thead>
@@ -241,7 +348,7 @@
           <tr><td>Hytek Lamination Machine</td></tr>
           <tr><td>Saddle Stitching Machine</td></tr>
         </table>
-      </div>
+      </div> -->
     </div>
   </section>
 
