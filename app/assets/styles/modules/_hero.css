@@ -4,6 +4,8 @@
   height: 70vh;
   max-height: 80vw;
   background-color: $primary;
+  background-position: center;
+  background-size: cover;
   position: relative;
   text-align: center;
 

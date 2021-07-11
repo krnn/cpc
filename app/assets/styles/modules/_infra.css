@@ -28,6 +28,7 @@
       vertical-align: middle;
       
       @mixin small {
+        text-align: right;
         width: calc(100% - 50rem);
       }
     }
